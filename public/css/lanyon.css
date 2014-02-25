@@ -173,7 +173,8 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
-  text-shadow: rgba(150,150,150,.5) 0px 3px 3px;
+  text-shadow: rgba(150,150,150,.6) 0px 2px 2px,
+               rgba(100,100,100,.6) 0px 2px 2px inset;
 }
 .sidebar-item p:last-child {
   margin-bottom: 0;

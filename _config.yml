@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Computer Science Swansea
+tagline:          'Postgraduate Wiki'
+description:      ''
+url:              http://lanyon.getpoole.com
+
+author:
+  name:           'Joss Whittle'
+  url:            '#'
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/CS-Swansea/cs-swansea.github.io

@@ -167,6 +167,9 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar-item {
   padding: 1rem;
 }
+.sidebar-item h1 {
+  color: rgba(255,255,255,.6);
+}
 .sidebar-item p:last-child {
   margin-bottom: 0;
 }

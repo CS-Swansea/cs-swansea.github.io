@@ -167,8 +167,9 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar-item {
   padding: 1rem;
 }
-.sidebar-item h1 {
-  color: hsla(359, 45%, 35%, 0.8);
+.sidebar-decr {
+  font-size: 150px;
+  color: hsla(359, 45%, 40%, 0.8);
   text-shadow: 1px 4px 6px hsl(359, 45%, 46%), 0 0 0 #000, 1px 4px 6px hsl(359, 45%, 46%);
 }
 .sidebar-item p:last-child {

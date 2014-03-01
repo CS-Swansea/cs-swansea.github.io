@@ -120,3 +120,22 @@ If you look at the [PhiHash](https://github.com/CS-Swansea/PhiHash) project on o
 		|			|--> run: cd ~/Documents/Code/[project]/
 		\--<--<--<--/		  ./[project binary]
 
+
+#### Rules
+
+What would be something fun without rules! Right guys? Right... 
+
+Anyway, this system is an expensive piece of kit, and we have to take care of it and use it properly. The key thing to remember is:
+
+<p class="message">
+	If you have to question whether you'll be in trouble for doing `X`, don't do that.. :p
+</p>
+
+Everything else is mainly housekeeping and common sense, such as:
+
+##### 1. Don't edit your code on the Xeon Phi Host. 
+Please don't VNC into the host and open Eclipse or Emacs. **Vi** or **Nano** over an ssh terminal aren't too bad but please don't do that either. Edit and test your code locally, then push->compile->and run on the Phi Host or Phi cards.
+
+#### 2. If you're going to run a job on the Phi Host or one of the cards for a long period of time, please send a quick email to the research group, or at least [Joss Whittle](mailto:637342@swansea.ac.uk?Subject=Xeon%20Phi%20access), (me), to let people know not to do any maintainance or run our own jobs too.
+
+## That's it, happy coding and give us a shout if you have any questions! :)

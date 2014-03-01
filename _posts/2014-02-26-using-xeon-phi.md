@@ -8,6 +8,10 @@ Back in October, 2013 the department acquired a special new computer from Intel 
 
 Now after months of sitting idle the Xeon Phi rack is setup and configure for us to work with!
 
+This post goes over setting up your local development environment for working with the Xeon Phi and basic rules and workflow for running your programs.
+
+------
+
 ##Lets get started!
 
 To get running on the Xeon Phi you'll need to install & do a couple of things:
@@ -18,6 +22,8 @@ To get running on the Xeon Phi you'll need to install & do a couple of things:
 4. [MSysGit \(Git Bash\)](http://msysgit.github.io/) (for windows users)
 5. Copy your .ssh keys to the server
 6. Run our super handy `setup_project.sh` script
+
+------
 
 ### 1. Getting a user account
 
@@ -99,6 +105,8 @@ Place the `setup_project.sh` script in the root of where all your projects will 
 	Note: There is definitely room for improvement with this script and the build system in general. If you have any idea's and alterations to make please submit a Pull Request on the github repo!
 </p>
 
+------
+
 ###Developing for the Xeon Phi
 
 Obviously all this setup is well an good (and verbose, sorry about that) but it's all rather useless if you can't actually run your code. Next we'll go over a simple workflow we'd like people to follow during developement of their programs and some basical housekeeping rules for Do's and Dont's of the system. 
@@ -136,6 +144,7 @@ Everything else is mainly housekeeping and common sense, such as:
 ##### 1. Don't edit your code on the Xeon Phi Host. 
 Please don't VNC into the host and open Eclipse or Emacs. **Vi** or **Nano** over an ssh terminal aren't too bad but please don't do that either. Edit and test your code locally, then push->compile->and run on the Phi Host or Phi cards.
 
-#### 2. If you're going to run a job on the Phi Host or one of the cards for a long period of time, please send a quick email to the research group, or at least [Joss Whittle](mailto:637342@swansea.ac.uk?Subject=Xeon%20Phi%20access), (me), to let people know not to do any maintainance or run our own jobs too.
+##### 2. Let people know if you're running a big job.
+If you're going to run a job on the Phi Host or one of the cards for a long period of time, please send a quick email to the research group, or at least [Joss Whittle](mailto:637342@swansea.ac.uk?Subject=Xeon%20Phi%20access), (me), to let people know not to do any maintainance or run our own jobs too.
 
 ## That's it, happy coding and give us a shout if you have any questions! :)

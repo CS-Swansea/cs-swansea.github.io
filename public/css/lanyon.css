@@ -304,6 +304,9 @@ a.sidebar-nav-item:focus {
   left: 0;
   visibility: visible;
 }
+#sidebar-checkbox:checked ~ .wrap {
+  left: 14rem;
+}
 #sidebar-checkbox:checked ~ .container {
   left: -14rem;
 }

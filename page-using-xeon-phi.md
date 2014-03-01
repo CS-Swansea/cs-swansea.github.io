@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Using the Xeon Phi rack!
 categories: [xeon_phi]
 ---

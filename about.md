@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-### This site is a Wiki of useful information tips for Postgraduate Researchers and RA's in the Swansea University Computer Science Department. 
+### This site is a Wiki of useful information & tips for Postgraduate Researchers and RA's in the Swansea University Computer Science Department. 
 
 It is run and maintained by the research group, for the research group. 
 

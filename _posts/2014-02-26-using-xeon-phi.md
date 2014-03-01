@@ -31,7 +31,7 @@ To get a user account simply contact:
 
 ### 2. Install Git
 
-This can be any version you like, on Windows I highly recommend the [Github for Windows](http://windows.github.com/) app. That being said, said for setting up a new project on Windows you'll still need the Cygwin & MSysGit tools so you can run Bash Scripts.
+This can be any version you like, on Windows I highly recommend the [Github for Windows](http://windows.github.com/) app. That being said, for setting up a new project on Windows you'll still need the Cygwin & MSysGit tools so you can run Bash Scripts.
 
 ### 3 & 4. Install Cygwin & MSysGit
 
@@ -83,12 +83,12 @@ In order, the script:
 4. *Server:* Create an empty folder `~/Documents/Data/[project]` which is where you should place any large datasets that wouldn't be a good idea to place in your git repo
 5. Add the remote repo in the Phi Host to your local repo's remote list
 6. Add a general purpose C++ makefile which will compile all .cpp files together into a binary the same name as the project
-7. Add a hello world c++ program
+7. Add a hello world C++ program
 8. Perform an initial commit and push the code to the Phi Host, compiling it in the process
 
 #### Example usage
 
-Place the `setup_project.sh` script in the root of where all your project will be stored. For example, I store mine in `My Documents/Xeon Phi/setup_project.sh`
+Place the `setup_project.sh` script in the root of where all your projects will be stored. For example, I store mine in `My Documents/Xeon Phi/setup_project.sh`
 
 	$ mkdir example_phi
 	$ cd example_phi
@@ -96,4 +96,26 @@ Place the `setup_project.sh` script in the root of where all your project will b
 
 <p class="message">
 	Note: There is definitely room for improvement with this script and the build system in general. If you have any idea's and alterations to make please submit a Pull Request on the github repo!
-</p>	
+</p>
+
+###Developing for the Xeon Phi
+
+Obviously all this setup is well an good (and verbose, sorry about that) but it's all rather useless if you can't actually run your code. Next we'll go over a simple workflow we'd like people to follow during developement of their programs and some basical housekeeping rules for Do's and Dont's of the system. 
+
+#### Workflow
+
+Developing for the Xeon Phi is difficult, there's no way around that I'm afraid. But you can make life a lot easier for yourself by making sure it runs locally first and then pushing it to the Phi Host and trying to make it work there.
+
+If you look at the [PhiHash](https://github.com/CS-Swansea/PhiHash) project on our CS-Swansea Github Organization, you can see an example of how a program for the Phi has been written so it will compile both on Windows under Visual Studio, and on the Phi Host under G++ and ICPC (the intel compiler) with no changes to the code being nessecary. This project also uses OpenMP to automatically make use of all available CPU cores during execution.
+
+	Develope, compile, and debug locally. Get your program working first!
+		|	|
+		^	v
+		|	|--> run: git add-commit -m "make: I've reached a stable build..."
+		|	|         git push phi master
+		|	|
+		|	\--> ssh into the Phi Host:
+		^			|
+		|			|--> run: cd ~/Documents/Code/[project]/
+		\--<--<--<--/		  ./[project binary]
+

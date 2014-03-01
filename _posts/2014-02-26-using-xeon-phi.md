@@ -121,7 +121,7 @@ If you look at the [PhiHash](https://github.com/CS-Swansea/PhiHash) project on o
 		\--<--<--<--/		  ./[project binary]
 
 
-#### Rules
+###Rules
 
 What would be something fun without rules! Right guys? Right... 
 

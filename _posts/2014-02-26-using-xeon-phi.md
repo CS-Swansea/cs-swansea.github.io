@@ -108,10 +108,10 @@ Developing for the Xeon Phi is difficult, there's no way around that I'm afraid.
 
 If you look at the [PhiHash](https://github.com/CS-Swansea/PhiHash) project on our CS-Swansea Github Organization, you can see an example of how a program for the Phi has been written so it will compile both on Windows under Visual Studio, and on the Phi Host under G++ and ICPC (the intel compiler) with no changes to the code being nessecary. This project also uses OpenMP to automatically make use of all available CPU cores during execution.
 
-	Develope, compile, and debug locally. Get your program working first!
+	Develope, compile, and debug locally.
 		|	|
 		^	v
-		|	|--> run: git add-commit -m "make: I've reached a stable build..."
+		|	|--> run: git add-commit -m "make: Stable build"
 		|	|         git push phi master
 		|	|
 		|	\--> ssh into the Phi Host:

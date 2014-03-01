@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 .wrap {
   position: relative;
   width: 100%;
+  z-index: 1;
 }
 
 
@@ -73,6 +74,8 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .container {
+  position: relative;
+  left: 0rem;
   max-width: 28rem;
 }
 @media (min-width: 38rem) {
@@ -146,6 +149,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   left: -14rem;
   width: 14rem;
+  z-index:999;
   visibility: hidden;
   overflow-y: auto;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
@@ -300,8 +304,8 @@ a.sidebar-nav-item:focus {
   left: 0;
   visibility: visible;
 }
-#sidebar-checkbox:checked ~ .wrap {
-  /*left: 14rem;*/
+#sidebar-checkbox:checked ~ .container {
+  left: -14rem;
 }
 
 

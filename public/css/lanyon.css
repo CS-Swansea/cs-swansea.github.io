@@ -356,6 +356,7 @@ a.sidebar-nav-item:focus {
   overflow: hidden;
   width: 300px;
   display:table-cell;
+  float: left;
 }
 
 .bio-thumbnail > img {
@@ -365,13 +366,13 @@ a.sidebar-nav-item:focus {
 }
 
 .bio-wrap {
-  display:table-row; 
+  display:table; 
   width:100%;
 }
 
 .bio-content {
   display:table-cell;
-  margin-top: -300px;
+  float: right;
 }
 
 @media (max-width: 56rem) {
@@ -382,6 +383,7 @@ a.sidebar-nav-item:focus {
     width: 100%; 
     margin: 0;
     display:block;
+    float: none;
   }
 }
 

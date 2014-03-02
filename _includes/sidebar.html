@@ -20,6 +20,15 @@
       {% endif %}
     {% endfor %}
 
+    {% assign pages_list = site.pages | sort:"name" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "biopage" %}
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
     <a class="sidebar-nav-item" href="{{ site.github.repo }}" target="_blank">Site Repository</a>
   </nav>
 

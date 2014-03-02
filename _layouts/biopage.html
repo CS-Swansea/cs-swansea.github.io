@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  {{ content }}
+
+  {% for post in site.categories.bio %}
+    
+    <hr />
+    <h2>{{ post.title }}</h2>
+    {{ post.content }}
+
+  {% endfor %}
+</div>

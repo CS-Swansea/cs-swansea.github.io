@@ -10,17 +10,21 @@ layout: default
     {% for node in pages_list %}
       {% if node.title != null %}
         {% if node.layout == "bio" %}
-          <hr />
-    	  <div class="bio-wrap">
-	    	<div class="bio-thumbnail">
-	    	  <img src="{{ node.image }}" alt="{{ node.title }}" />
-	    	</div>
+          <hr />   	  
 
-	    	<div class="bio-content">
-	    	  <h2>{{ node.title }}</h2>
-	    	  {{ node.content }}
-	    	</div>
-	      </div>
+		  <div class="section group">
+			<div class="col span_1_of_3">
+				<div class="bio-thumbnail">
+			    	<img src="{{ node.image }}" alt="{{ node.title }}" />
+			    </div>
+			</div>
+			<div class="col span_2_of_3">
+				<div class="bio-content">
+			   		<h2>{{ node.title }}</h2>
+			    	{{ node.content }}
+			    </div>
+			</div>
+		  </div>
         {% endif %}
       {% endif %}
     {% endfor %}

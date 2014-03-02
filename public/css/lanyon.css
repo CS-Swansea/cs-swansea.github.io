@@ -343,6 +343,8 @@ a.sidebar-nav-item:focus {
 }
 
 .bio-thumbnail {
+  position: relative;
+  display: block;
   padding: 4px;
   line-height: 1.42857143;
   background-color: #fff;
@@ -352,13 +354,8 @@ a.sidebar-nav-item:focus {
   transition: all .2s ease-in-out;
 
   overflow: hidden;
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
   width: 300px;
   display:table-cell;
-  float: left;
 }
 
 .bio-thumbnail > img {
@@ -368,7 +365,6 @@ a.sidebar-nav-item:focus {
 }
 
 .bio-wrap {
-  position: relative;
   display:table; 
   width:100%;
 }
@@ -377,9 +373,9 @@ a.sidebar-nav-item:focus {
   position: absolute;
   top:0;
   bottom: 0;
-  right: 0;
+  left: 315px;
+
   display:table-cell;
-  float: right;
 }
 
 @media (max-width: 56rem) {
@@ -391,7 +387,6 @@ a.sidebar-nav-item:focus {
     width: 100%; 
     margin: 0;
     display:block;
-    float: none;
   }
 }
 

@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body:after {
-content: '';
+content: 'widescreen';
     display: none;
 }
 @media (max-width: 48rem) {
@@ -129,7 +129,7 @@ content: '';
   }
 
   body:after {
-    content: 'widescreen';
+    content: '';
     display: none;
   }
 }

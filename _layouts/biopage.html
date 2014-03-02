@@ -11,6 +11,11 @@ layout: default
       {% if node.title != null %}
         {% if node.layout == "bio" %}
           <hr />
+    	  
+    	  <div class="thumbnail">
+    	  	<img src="{{ node.image }}" alt="{{ node.title }}" />
+    	  </div>
+
     	  <h2>{{ node.title }}</h2>
     	  {{ node.content }}
         {% endif %}

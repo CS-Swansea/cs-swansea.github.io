@@ -6,11 +6,14 @@ layout: default
   <h1 class="page-title">{{ page.title }}</h1>
   {{ content }}
 
-  {% for post in site.categories.bio %}
-    
-    <hr />
-    <h2>{{ post.title }}</h2>
-    {{ post.content }}
-
-  {% endfor %}
+  {% assign pages_list = site.pages | sort:"name" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "bio" %}
+          <hr />
+    	  <h2>{{ node.title }}</h2>
+    	  {{ node.content }}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
 </div>

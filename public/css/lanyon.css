@@ -354,7 +354,7 @@ a.sidebar-nav-item:focus {
   transition: all .2s ease-in-out;
 
   overflow: hidden;
-  max-width: 300px;
+  width: 300px;
   display:table-cell;
 }
 
@@ -370,7 +370,7 @@ a.sidebar-nav-item:focus {
 }
 
 .bio-content {
-  margin-left: 300px;
+  margin-left: 315px;
   display:table-cell;
 }
 
@@ -380,6 +380,7 @@ a.sidebar-nav-item:focus {
   }
   .bio-thumbnail, .bio-content {
     width: 100%; 
+    margin: 0;
     display:block;
   }
 }

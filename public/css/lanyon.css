@@ -365,7 +365,7 @@ a.sidebar-nav-item:focus {
 }
 
 .bio-wrap {
-  display:table; 
+  display:table-row; 
   width:100%;
 }
 

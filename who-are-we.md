@@ -11,7 +11,7 @@ Below is a list of people working in the labs with their names, a photo, and a s
 
 #### Are you not listed? 
 
-Submit a bio to the [cs-swansea.github.io](https://github.com/CS-Swansea/cs-swansea.github.io) repo under the `/bio/` folder!
+Submit a bio to the [cs-swansea.github.io](https://github.com/CS-Swansea/cs-swansea.github.io) repo as `/bio/your-name.md` !
 
 	---
 	layout: bio

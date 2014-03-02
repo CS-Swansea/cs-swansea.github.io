@@ -342,7 +342,7 @@ a.sidebar-nav-item:focus {
   color: #9a9a9a;
 }
 
-.thumbnail {
+.bio-thumbnail {
   position: relative;
   display: block;
   padding: 4px;
@@ -357,16 +357,25 @@ a.sidebar-nav-item:focus {
   max-width: 300px;
 }
 
-@media (max-width: 56rem) {
-  .thumbnail {
-    max-width: 100%;
-  }
-}
-
-.thumbnail > img {
+.bio-thumbnail > img {
   display: block; 
   width: 100%;
   margin: 0 auto;
+}
+
+.bio-wrap {
+  display:table; 
+  width:100%;
+}
+
+@media (max-width: 56rem) {
+  .bio-wrap {
+    display:block;
+  }
+  .bio-thumbnail, .bio-content {
+    width: 100%; 
+    display:block;
+  }
 }
 
 /* Related posts */

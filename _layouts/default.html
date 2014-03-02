@@ -27,11 +27,11 @@
     </div>
 
     <script type="text/javascript">
-      document.getElementById('sidebar-checkbox').checked = false;
       function getWidthValue (mediaQueryList) {      
         document.getElementById('sidebar-checkbox').checked = mediaQueryList.matches;
       }
       var widthQuery = window.matchMedia("(min-width: 48rem)");
+      document.getElementById('sidebar-checkbox').checked = widthQuery.matches;
       widthQuery.addListener(getWidthValue);
     </script>
   </body>

@@ -357,7 +357,7 @@ a.sidebar-nav-item:focus {
   max-width: 300px;
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 56rem) {
   .thumbnail {
     max-width: 100%;
   }

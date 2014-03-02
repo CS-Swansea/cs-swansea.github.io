@@ -28,10 +28,15 @@
 
     <script type="text/javascript">
       var elem = document.getElementById('sidebar-checkbox');
+
+      console.log('Checked: ' + elem.checked);
+
       elem.checked = false;
       var size = window.getComputedStyle(document.body,':after').getPropertyValue('content');
       if (size == 'widescreen') {
         elem.checked = true;
+
+        console.log('widescreen');
       }
     </script>
   </body>

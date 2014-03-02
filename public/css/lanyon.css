@@ -116,20 +116,11 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0;
 }
 
-body:after {
-content: 'widescreen';
-    display: none;
-}
 @media (max-width: 48rem) {
   .masthead-title {
     text-align: center;
   }
   .masthead-title small {
-    display: none;
-  }
-
-  body:after {
-    content: '';
     display: none;
   }
 }

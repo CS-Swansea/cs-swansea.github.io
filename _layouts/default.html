@@ -30,7 +30,7 @@
       function getWidthValue (mediaQueryList) {      
         document.getElementById('sidebar-checkbox').checked = mediaQueryList.matches;
       }
-      var widthQuery = window.matchMedia("(min-width: 48rem)");
+      var widthQuery = window.matchMedia("(min-width: 56rem)");
       document.getElementById('sidebar-checkbox').checked = widthQuery.matches;
       widthQuery.addListener(getWidthValue);
     </script>

@@ -27,17 +27,11 @@
     </div>
 
     <script type="text/javascript">
-      var elem = document.getElementById('sidebar-checkbox');
-
-      console.log('Checked: ' + elem.checked);
-
-      elem.checked = false;
-      var size = window.getComputedStyle(document.body,':after').getPropertyValue('content');
-      if (size == 'widescreen') {
-        elem.checked = true;
-
-        console.log('widescreen');
+      function getWidthValue (mediaQueryList) {      
+        document.getElementById('sidebar-checkbox').checked = mediaQueryList.matches;
       }
+      var widthQuery = window.matchMedia("(min-width: 48rem)");
+      widthQuery.addListener(getWidthValue);
     </script>
   </body>
 </html>

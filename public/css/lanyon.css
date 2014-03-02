@@ -81,11 +81,6 @@ h1, h2, h3, h4, h5, h6 {
   .container {
     max-width: 32rem;
   }
-
-  body:after {
-    content: 'widescreen';
-    display: none;
-  }
 }
 @media (min-width: 56rem) {
   .container {
@@ -126,6 +121,11 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
   .masthead-title small {
+    display: none;
+  }
+
+  body:after {
+    content: 'widescreen';
     display: none;
   }
 }

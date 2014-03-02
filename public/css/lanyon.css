@@ -368,6 +368,7 @@ a.sidebar-nav-item:focus {
 }
 
 .bio-wrap {
+  position: relative;
   display:table; 
   width:100%;
 }

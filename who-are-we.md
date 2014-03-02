@@ -9,7 +9,7 @@ To help alleviate this hopefully people should have noticed someone new (make a 
 
 Below is a list of people working in the labs with their names, a photo, and a short description of what they work on:
 
-#### Are you not listed? 
+### Are you not listed? 
 
 Submit a bio to the [cs-swansea.github.io](https://github.com/CS-Swansea/cs-swansea.github.io) repo as `/bio/your-name.md` !
 

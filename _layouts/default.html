@@ -26,5 +26,11 @@
       </div>
     </div>
 
+    <script type="text/javascript">
+      var size = window.getComputedStyle(document.body,':after').getPropertyValue('content');
+      if (size == 'widescreen') {
+        document.getElementById('sidebar-checkbox').checked = true;
+      }
+    </script>
   </body>
 </html>

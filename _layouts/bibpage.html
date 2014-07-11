@@ -10,9 +10,9 @@ layout: default
     {% for node in pages_list %}
       {% if node.title != null %}
         {% if node.layout == "bib" %}
-          <hr />   	  
-		      <h2>{{ node.title }}</h2>
-			    {{ node.content }}
+          	<hr />   	  
+		<h2>{{ node.title }}</h2>
+		{{ node.content | markdownify }}
         {% endif %}
       {% endif %}
     {% endfor %}

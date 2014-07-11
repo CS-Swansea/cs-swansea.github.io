@@ -4,8 +4,6 @@ title: Monday Reading Group
 categories: [reading-group]
 ---
 
-## Monday Reading Group
-
 The research group is proud to announce the revival of the "monday reading group". The aim of the group is to meet once a week and to each take 5-10 minutes to discuss an interesting paper they've recently read. 
 
 ## What topics should papers be on?

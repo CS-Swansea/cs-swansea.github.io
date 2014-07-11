@@ -1,23 +1,36 @@
 ---
-layout: biopage
-title: Who are we?
+layout: bibpage
+title: Monday Reading Group
+categories: [reading-group]
 ---
 
-When many of us first started in the department we found that it was hard to get to know people. Everyone's working, and as the new person it can seem intimidating to interrupt someones work to say hello.
+The research group is proud to announce the revival of the "monday reading group". The aim of the group is to meet once a week and to each take 5-10 minutes to discuss an interesting paper they've recently read. 
 
-To help alleviate this hopefully people should have noticed someone new (make a loud noise and watch our heads pop up like meerkats) and have come to introduced themselves. But even then, if you're anything like me it's difficult to remember 30+ new names overnight. 
+## What topics should papers be on?
 
-Below is a list of people working in the labs with their names, a photo, and a short description of what they work on:
+Anything related to computer science or your research. That said, if you've stumbled upon a truely interesting paper in one of our neighboring fields then please bring it along. 
 
-### Are you not listed? 
+## I'd like to attend, but have not got a paper prepared...
 
-Submit a bio to the [cs-swansea.github.io](https://github.com/CS-Swansea/cs-swansea.github.io) repo as `/bio/your-name.md` !
+Absolutely fine. While we'd like to encourage everyone to contribute a paper they've read recently and found interesting, it is by no means mandatory. Come along for the discussion and to hear about interesting papers others have found. *Also coffee. Lots of coffee..*
+
+## Time and Location
+
+Meetings of the reading group will be on Mondays at `3pm in the 4th floor kitchen of Faraday Tower`. All are welcome.
+
+## Want to find a paper discussed in the group? 
+
+Submit a bib to the [cs-swansea.github.io](https://github.com/CS-Swansea/cs-swansea.github.io) repo as `/bib/some-paper.md` !
 
 	---
-	layout: bio
-	title: Your Name
-	categories: [bio]
-	image: https://url.to.your/image
+	layout: bib
+	title: The title of your paper
+	categories: [bib]
 	---
 
-	A short description of who you are, who your supervisor is, and what your research is about.
+	@phdthesis{veach1997robust,
+		title  = {Robust Monte Carlo methods for light transport simulation},
+		author = {Veach, Eric},
+		year   = {1997},
+		school = {Stanford University}
+	}

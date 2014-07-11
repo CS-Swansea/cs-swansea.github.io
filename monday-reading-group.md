@@ -28,9 +28,9 @@ Submit a bib to the [cs-swansea.github.io](https://github.com/CS-Swansea/cs-swan
 	categories: [bib]
 	---
 
-	@phdthesis{veach1997robust,
-		title  = {Robust Monte Carlo methods for light transport simulation},
-		author = {Veach, Eric},
+	@phdthesis{bibTag,
+		title  = {The title of your paper},
+		author = {John Doe},
 		year   = {1997},
-		school = {Stanford University}
+		school = {Swansea University}
 	}

@@ -23,7 +23,7 @@
     {% assign pages_list = site.pages | sort:"name" %}
     {% for node in pages_list %}
       {% if node.title != null %}
-        {% if node.layout == "biopage" %}
+        {% if node.layout == "biopage" || node.layout == "bibpage" %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
         {% endif %}
       {% endif %}

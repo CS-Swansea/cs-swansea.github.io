@@ -16,17 +16,11 @@ Absolutely fine. While we'd like to encourage everyone to contribute a paper the
 
 ## Time and Location
 
-Meetings of the reading group will be on Mondays at `3pm in the 4th floor kitchen of Faraday Tower`. All are welcome.
+Meetings of the reading group will be on Mondays at `4pm in the 4th floor kitchen of Faraday Tower`. All are welcome.
 
 ## Want to find a paper discussed in the group? 
 
-Submit a bib to the [cs-swansea.github.io](https://github.com/CS-Swansea/cs-swansea.github.io) repo as `/bib/some-paper.md` !
-
-	---
-	layout: bib
-	title: The title of your paper
-	categories: [bib]
-	---
+Submit a bibtex entry to the [Google Docs](https://docs.google.com/document/d/1Vsq4Ydh7r4erkRaFyBGicZg4aqDIPMtlVV_lM6qmd2k/edit?usp=sharing)
 
 	@phdthesis{bibTag,
 		title  = {The title of your paper},

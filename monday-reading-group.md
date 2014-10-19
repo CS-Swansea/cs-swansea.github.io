@@ -20,7 +20,7 @@ Meetings of the reading group will be on Mondays at `4pm in the 4th floor kitche
 
 ## Want to find a paper discussed in the group? 
 
-Submit a bibtex entry to the [Google Docs](https://docs.google.com/document/d/1Vsq4Ydh7r4erkRaFyBGicZg4aqDIPMtlVV_lM6qmd2k/edit?usp=sharing)
+Submit a bibtex entry to the [Google Docs](https://docs.google.com/document/d/1Vsq4Ydh7r4erkRaFyBGicZg4aqDIPMtlVV_lM6qmd2k/edit?usp=sharing) file.
 
 	@phdthesis{bibTag,
 		title  = {The title of your paper},

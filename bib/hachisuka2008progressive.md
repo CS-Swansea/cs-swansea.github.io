@@ -1,7 +1,7 @@
 ---
-layout: bib
+layout: biboff
 title: Progressive photon mapping
-categories: [bib]
+categories: [biboff]
 ---
 
     @inproceedings{hachisuka2008progressive,

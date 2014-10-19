@@ -8,7 +8,7 @@ The research group is proud to announce the revival of the "monday reading group
 
 ## What topics should papers be on?
 
-Anything related to computer science or your research. That said, if you've stumbled upon a truely interesting paper in one of our neighboring fields then please bring it along. 
+Anything related to computer science or your research. That said, if you've stumbled upon a truly interesting paper in one of our neighboring fields then please bring it along. 
 
 ## I'd like to attend, but have not got a paper prepared...
 
